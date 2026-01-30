@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Siswa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LOGIN -->
+  <div class="login-container">
+    <div class="login-box">
+      <h2>Login Portofolio</h2>
+      <input type="text" placeholder="Username">
+      <input type="password" placeholder="Password">
+      <button onclick="login()">Masuk</button>
+    </div>
+  </div>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio hidden">
+    <nav>
+      <h1>My Portfolio</h1>
+      <button class="theme-btn" onclick="toggleTheme()">🌓</button>
+    </nav>
+
+    <div class="card">
+      <img src="fotokalian.jpg" alt="Foto Diri">
+      <h2>Muhammad Riko Nur Fadillah</h2>
+      <span>XII Tjkt III</span>
+
+      <p>
+        Saya adalah siswa yang tertarik pada dunia teknologi dan web development.
+        Website ini merupakan portofolio pribadi saya.
+      </p>
+
+      <button class="contact-btn" onclick="hubungi()">
+        Hubungi Saya
+      </button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
